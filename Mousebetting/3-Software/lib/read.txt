@@ -1,0 +1,8 @@
+#Third party jars used in Multistage: 
+
+Ant=1.5
+Junit=3.7
+UtilService=1.0 (CASSEL/SSEL inhouse)
+Jdom=beta-8
+Log4j=1.2.8
+MatchingService=1.0 (CASSEL/SSEL inhouse)
