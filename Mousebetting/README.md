@@ -6,7 +6,7 @@ In this repository you will find:
 
 2. [Instructions](https://raw.githubusercontent.com/labelinstitute/nonchoice/main/Mousebetting/Instructions_Mousebetting.pdf) 
 
-3. [Data](https://github.com/labelinstitute/nonchoice/tree/main/Mousebetting/Data)
+3. [Data](https://github.com/labelinstitute/nonchoice/tree/main/Mousebetting/Data) and a [list of variables](https://raw.githubusercontent.com/labelinstitute/nonchoice/main/Mousebetting/Variables.pdf)
 
 
 ## Reference
