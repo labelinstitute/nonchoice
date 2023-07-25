@@ -1,0 +1,168 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red34\green139\blue34;}
+\margl1440\margr1440\vieww12160\viewh15380\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs20 \cf0  
+\fs24 \
+\pard\pardeftab720
+
+\fs20 \cf2 % %------------------------% %
+\fs24 \cf0 \
+
+\fs20 \cf2 % %  NOTES FOR INSTALATION % %
+\fs24 \cf0 \
+
+\fs20 \cf2 % %------------------------% %
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2 % % This code was implemented using MATLAB_R2011b
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2 % % Open Matlab as administrator in the lab. Then download this file into
+\fs24 \cf0 \
+
+\fs20 \cf2 % % Downloads folder (or preferred folder)
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2 % % Double click the file to open and should automatically open it in the 
+\fs24 \cf0 \
+
+\fs20 \cf2 % % correct path. If not, select the correct path. 
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2 % % Take skip sinc test away in lab! If screen doesnt work (because the tests it runs in the Retina dont work) use Screen('Preference','SkipSyncTests',1) first. Then change 1 for 0 to put the test back on.
+\fs24 \cf0 \
+
+\fs20 \cf2 % % Psychtoolbox does not work properly in terms of timing on macs with retina displays, because of how the screen is upsampled. You have two options:
+\fs24 \cf0 \
+
+\fs20 \cf2 % % 1) You can disabled the screen sync tests. This will allow PTB to function, but you will have inaccurate timing. This may be ok if you are just using the machine for development purposes or if you don't care about precise timing.
+\fs24 \cf0 \
+
+\fs20 \cf2 % % 2) You may be able to force your screen into native resolution mode using a non-apple 3rd party software. See this post in the PTB forum for a link to such software and more information:  http://tech.groups.yahoo.com/group/psychtoolbox/message/14954
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2 % % To run the software open the file as a script and then go to matlab's
+\fs24 \cf0 \
+
+\fs20 \cf2 % % command window. In the command window type the name of the file and in
+\fs24 \cf0 \
+
+\fs20 \cf2 % % parenthesis write down the subject number or identification with ''. In
+\fs24 \cf0 \
+
+\fs20 \cf2 % % other words, if the file name is timesoftware.m then type in the command
+\fs24 \cf0 \
+
+\fs20 \cf2 % % window timesoftware('id') and press enter. 
+\fs24 \cf0 \
+
+\fs20 \cf2 % % The software will automatically start. The first window has an invisible
+\fs24 \cf0 \
+
+\fs20 \cf2 % % button in the top right corner. Click it to procede.
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2 % % To exit the screen once the software has been started press control+c and
+\fs24 \cf0 \
+
+\fs20 \cf2 % % then type clear Screen
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2 % % Compare with a clock that the lab computers are recording well.
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2 % %------------------------% %
+\fs24 \cf0 \
+
+\fs20 \cf2 % %  NOTES FOR TIME TASK   % %
+\fs24 \cf0 \
+
+\fs20 \cf2 % %------------------------% %
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2 % %    Order: 2m31s, 1m56s, 31s, 53s, 3m16s, 1m29s, 41s, 1m9s, 24s, 3M39S
+\fs24 \cf0 \
+
+\fs20 \cf2 % %    #Tasks: 18     14     4    7    24     11     5    9     3    31
+\fs24 \cf0 \
+
+\fs20 \cf2 % %   note: the last interval 3M39S is not taen into account and is just to
+\fs24 \cf0 \
+
+\fs20 \cf2 % %   prevent subjects biasing others that have not yet finished. 
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2 % %   To exit the screen once the software has been started press control+c and
+\fs24 \cf0 \
+
+\fs20 \cf2 % %   then type: clear Screen
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+
+\fs20 \cf2 % %   The output files are 4:
+\fs24 \cf0 \
+
+\fs20 \cf2 % %   1) id.txt (records everything to check if there is a problem - not really used for analysis)
+\fs24 \cf0 \
+
+\fs20 \cf2 % %   2) idData.txt (records the time of the example trials as well as the time of the actual intervals and the proportion of corect tasks)
+\fs24 \cf0 \
+
+\fs20 \cf2 % %   3) idPayoffs.txt (records all the relevant data)
+\fs24 \cf0 \
+
+\fs20 \cf2 % %   4) idShortPayoffs.txt (records the relevant data for the person paying
+\fs24 \cf0 \
+
+\fs20 \cf2 % %      the subjects)
+\fs24 \cf0 \
+
+\fs20 \cf2  
+\fs24 \cf0 \
+\
+}
