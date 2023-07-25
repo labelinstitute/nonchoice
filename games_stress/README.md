@@ -2,13 +2,12 @@
 
 In this repository you will find: 
 
-1. [Software](https://github.com/labelinstitute/nonchoice/tree/main/time_perception/Software/Software). The experiment is programmed in zTree. *LABEL does not provide assistance if the experimental software is not compatible with newer versions. Experimenters should seek support from the developer and make the appropriate adjustments to the code.*
+1. [Software](https://github.com/labelinstitute/nonchoice/tree/main/games_stress/Software). The experiment is programmed in zTree. *LABEL does not provide assistance if the experimental software is not compatible with newer versions. Experimenters should seek support from the developer and make the appropriate adjustments to the code.*
 
-2. [Instructions](https://github.com/labelinstitute/nonchoice/main/time_perception/Instructions_time.pdf).
+2. [Instructions](https://github.com/labelinstitute/nonchoice/main/games_stress/Instructions.docx).
 
-3. [Data](https://github.com/labelinstitute/nonchoice/tree/main/time_perception/Data).
+3. [Data](https://github.com/labelinstitute/nonchoice/tree/main/games_stress/Data).
 
-4. [Code for estimates](https://github.com/labelinstitute/nonchoice/tree/main/time_perception/Code_Estimates/Codes%20for%20estimates)
 
 
 ## Reference
