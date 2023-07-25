@@ -1,0 +1,225 @@
+Beginning of first test interval (of 20 seconds) 
+Beginning of task 
+0 
+This last 0 was because time was up. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 8.33329 seconds to click since begining of task. 
+We cant tell you how good your estimate for the 20 second interval was. \n\nHowever, we will tell you how many correct and incorrect task answers you had. \n\nYou had <1> correct answers and <1> incorrect answers. The proportion of correct anwers is under 80 per cent.\n\n\n\n\nPlease click the button labeled "Next" to continue. 
+The length of the 1st practice interval is 22.00357 
+
+Beginning of second test interval (of 20 seconds) 
+Beginning of task 
+1 
+This last interval took the user 6.54400 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 6.93325 seconds to click since begining of task. 
+We cant tell you how good your estimate for the 20 second interval was. \n\nHowever, we can tell you how many correct and incorrect task answers you had. \n\nYou had <2> correct answers and <0> incorrect answers. The proportion of correct anwers is over or equal to 80 per cent.\n\nSo you would have earned money for this time interval if your estimation was good.\n\nRemember: if less than 80 per cent of the task answers during an interval are correct you earn $0 no matter how good your estimation for the interval.\n\n\n\n\nPlease click the button labeled "Next" to continue. 
+The length of the 2nd practice interval is 16.87804 
+
+Beginning of third test interval (of 20 seconds) 
+Beginning of task 
+0 
+This last interval took the user 8.04791 seconds to click since begining of task. 
+0 
+This last 0 was because time was up. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 7.08327 seconds to click since begining of task. 
+Time into Task with no response 8.46652 
+This last interval took the user 8.46652 seconds to click since begining of task. 
+We cant tell you how good your estimate for the 20 second interval was. \n\nHowever, we can tell you how many correct and incorrect task answers you had. \n\nYou had <1> correct answers and <2> incorrect answers. The proportion of correct anwers is under 80 per cent.\n\nSo you would have earned zero for this time interval regardless of your estimation.\n\nRemember: if less than 80 per cent of the task answers during an interval are correct you earn $0 no matter how good your estimation for the interval.\n\n\n\n\nPlease click the button labeled "Next" to continue. 
+The length of the 3rd practice interval is 20.53186 
+
+Beginning of int of 2 minutes and 31 seconds 
+Beginning of task 
+1 
+This last interval took the user 6.35097 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 8.35001 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 6.14988 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 6.98325 seconds to click since begining of task. 
+End of task. 
+The length of the 2m31s interval is 43.95387 
+
+Beginning of int of 1 minute 56 seconds 
+Beginning of task 
+1 
+This last interval took the user 6.64502 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 6.34983 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 6.64983 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+Time into Task with no response 0.28262 
+This last interval took the user 0.28262 seconds to click since begining of task. 
+End of task. 
+The length of the 1m56s interval is 35.02993 
+
+Beginning of int of 31 seconds 
+Beginning of task 
+0 
+This last interval took the user 6.90057 seconds to click since begining of task. 
+0 
+This last 0 was because time was up. 
+End of task. 
+The length of the 31s interval is 13.10169 
+
+Beginning of int of 53 seconds 
+Beginning of task 
+0 
+This last interval took the user 6.94420 seconds to click since begining of task. 
+0 
+This last 0 was because time was up. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 7.24992 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+Time into Task with no response 0.43279 
+This last interval took the user 0.43279 seconds to click since begining of task. 
+End of task. 
+The length of the 56s interval is 28.76221 
+
+Beginning of int of 3 minutes and 16 seconds 
+Beginning of task 
+1 
+This last interval took the user 6.81053 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 7.23317 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 7.79976 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 5.49955 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 5.26626 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 7.53298 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 7.33318 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+Time into Task with no response 0.29917 
+This last interval took the user 0.29917 seconds to click since begining of task. 
+End of task. 
+The length of the 3m16s interval is 82.01502 
+
+Beginning of int of 1 minute 29 seconds 
+Beginning of task 
+1 
+This last interval took the user 8.40720 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 8.04994 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 8.18326 seconds to click since begining of task. 
+End of task. 
+The length of the 1m29s interval is 38.79311 
+
+Beginning of int of 41 seconds 
+Beginning of task 
+1 
+This last interval took the user 7.94704 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+0 
+This last interval took the user 6.88322 seconds to click since begining of task. 
+Time into Task with no response 8.44996 
+This last interval took the user 8.44996 seconds to click since begining of task. 
+End of task. 
+The length of the 41s interval is 21.43121 
+
+Beginning of int of 1 minute 9 seconds 
+Beginning of task 
+1 
+This last interval took the user 7.07169 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 6.98317 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 7.78292 seconds to click since begining of task. 
+End of task. 
+The length of the 1m09s interval is 36.87413 
+
+Beginning of int of 24 seconds 
+Beginning of task 
+1 
+This last interval took the user 6.44173 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+Time into Task with no response 1.94959 
+This last interval took the user 1.94959 seconds to click since begining of task. 
+End of task. 
+The length of the 24s interval is 11.42544 
+
+Beginning of int of 3 minutes and 39 seconds 
+Beginning of task 
+1 
+This last interval took the user 7.22281 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 7.29979 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 5.84978 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 6.33309 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 4.18266 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 8.50001 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 7.43305 seconds to click since begining of task. 
+End of task. 
+Beginning of task 
+1 
+This last interval took the user 7.44970 seconds to click since begining of task. 
+End of task. 
+The length of the 3m16s interval is 106.26273 
+
