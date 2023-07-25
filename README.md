@@ -6,8 +6,8 @@ In this repository you will find the code, data and instructions for the followi
 
 * [Stress induces contextual blindness in lotteries and coordination games (2017)](https://github.com/labelinstitute/nonchoice/tree/main/games_stress).
 
-* [How long is a minute? (2018)](https://github.com/labelinstitute/nonchoice/tree/main/time_perception)
+* [How long is a minute? (2018)](https://github.com/labelinstitute/nonchoice/tree/main/time_perception).
 
-* [Self-awareness in time perception (2018)](https://github.com/labelinstitute/nonchoice/tree/main/time_stress)
+* [Self-awareness in time perception (2018)](https://github.com/labelinstitute/nonchoice/tree/main/time_stress).
 
 * [The Path to Equilibrium in Sequential and Simultaneous Games: a Mouse tracking Study (2018)](https://github.com/labelinstitute/nonchoice/tree/main/sequential_simult).
