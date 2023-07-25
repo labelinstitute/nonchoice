@@ -1,0 +1,154 @@
+# SAMPLE TWOMOUSE PARAMETER FILE #
+
+### Experiment Scope Parameters ###
+exp.id=50
+numOfMatches=3
+
+#### Generic Parameters ####
+match.0.type=ReverseReasoning
+
+#number of players: [3, 4, 5]
+match.0.groupSize=4
+match.0.exchangeRate=1.0
+match.0.maxRounds=1
+
+# show total payoff on the history panel[true|false]
+match.0.showTotalPayoff=true
+
+#[totalrandom|random|zipper|rr|continue|fixed|RiskAversion]
+match.0.matching=totalrandom
+
+# show the match ending display dialog [true|false]
+match.0.displayFinishedInfo=false
+
+# Initial history panel display mode [full|tabbed]
+match.0.defaultView=full
+
+# Whether to allow user switch history panel display modes [true|false]
+match.0.viewSwitchable=true
+
+match.0.practice=false
+
+
+######## REVERSEREASONING GAME PARAMETERS ###########
+
+# which type of game the match will be.  There are three options:
+#  SEQUENTIAL - an order of play is specified, and each subject sees what the previous players have done
+#  SEQUENTIALALL - players are asked what they would do for *every* role
+#  SIMULTANEOUS - there is no order of play - all roles submit their moves at the same time
+match.0.gameType=SIMULTANEOUS
+match.1.gameType=SEQUENTIAL
+match.2.gameType=SEQUENTIALALL
+
+# number of actions for each subject: [2, 3, 4]
+match.0.actionSize=2
+
+# players can be assigned to any of %groupSize% different roles (colors)
+# each role is defined by three characteristics:
+#   name - the name used to call the role - "red" or "white", etc
+#   abbreviation - the shorter version of the name used in matrix labels - "R" or "W", etc.
+#   color - the RGB description of the color used to display the name of the role
+match.0.role.0.name=Red
+match.0.role.0.abbreviation=R
+match.0.role.0.color=255,0,0
+
+match.0.role.1.name=Green
+match.0.role.1.abbreviation=G
+match.0.role.1.color=0,255,0
+
+match.0.role.2.name=Blue
+match.0.role.2.abbreviation=B
+match.0.role.2.color=0,0,255
+
+match.0.role.3.name=White
+match.0.role.3.abbreviation=W
+match.0.role.3.color=255,255,255
+
+# Since the construction of the payoff matrix depends on an ordering of plays, each role can have
+# one of 2*(groupSize-1) different matrices,  two which "depend" on each other player.  One of these
+# two is used when the player is last in sequence, and the other when the player is in any other position
+#
+# These individual matrices are of size actionSize*actionSize.
+#  match.N.payoffs.0.1 is the matrix for role.0, depending on role.1
+#  match.N.payoffs.2.1.last is the matrix for role.2, depending on role.1, in the case where role.2 is last in the sequence
+#  NOTE that it never makes sense to have match.N.payoffs.1.1 - payoffs will never depend on themselves.
+match.0.payoffs.0.1=1,2,3,4
+match.0.payoffs.0.1.last=1,2,1,2
+match.0.payoffs.0.2=5,6,7,8
+match.0.payoffs.0.2.last=5,6,5,6
+match.0.payoffs.0.3=9,10,11,12
+match.0.payoffs.0.3.last=9,10,9,10
+match.0.payoffs.1.0=13,14,15,16
+match.0.payoffs.1.0.last=13,14,13,14
+match.0.payoffs.1.2=17,18,19,20
+match.0.payoffs.1.2.last=17,18,17,18
+match.0.payoffs.1.3=21,22,23,24
+match.0.payoffs.1.3.last=21,22,21,22
+match.0.payoffs.2.0=25,26,27,28
+match.0.payoffs.2.0.last=25,26,25,26
+match.0.payoffs.2.1=29,30,31,32
+match.0.payoffs.2.1.last=29,30,29,30
+match.0.payoffs.2.3=33,34,35,36
+match.0.payoffs.2.3.last=33,34,33,34
+match.0.payoffs.3.0=37,38,39,40
+match.0.payoffs.3.0.last=37,38,37,38
+match.0.payoffs.3.1=41,42,43,44
+match.0.payoffs.3.1.last=41,42,41,42
+match.0.payoffs.3.2=45,46,47,48
+match.0.payoffs.3.2.last=45,46,45,46
+
+# If the gameType is SEQUENTIAL or SEQUENTIALALL, a sequence of play is specified
+# There should be groupSize entries in the sequence, each of them a role number
+# (referring to the roles defined above)
+match.0.playOrder=0,2,1,3
+match.1.playOrder=1,0,2,3
+match.2.playOrder=2,1,0,3
+match.3.playOrder=0,3,2,1
+match.4.playOrder=3,1,0,2
+
+# The display order of the roles on the GUI, from left to right.  There should be groupSize entries
+# Example:  match.N.displayOrder=1,2,0 displayes them as role.1, then role.2, then role.0
+#               match.N.displayOrder=random displays them as a random ordering
+#match.0.displayOrder=2,0,1,3
+match.0.displayOrder=random
+
+####### GUI Parameters #######
+
+#the options display values when the player moves the mouse.
+match.0.gui.alwaysshowvalue=false
+
+# user-defined parameters for interface
+match.0.gui.borderColor=70,255,70
+match.0.gui.ownPayoffColor=140,140,140
+match.0.gui.otherPayoffColor=190,190,190
+
+# the names of the actions, which are displayed as row and column labels
+match.0.actionName.0=X
+match.0.actionName.1=Y
+
+#the display text for the interface
+match.0.gui.payofflabel=<html>Payoff of <font color=\"%roleColor%\">%roleName%</font></html>
+match.0.gui.actionlabel=<html>You are <font color=\"%roleColor%\">%roleName%</font>, please choose an action:</html>
+match.0.gui.allActionLabel=<html>Please choose one action for %roleName%: </html>
+
+match.0.gui.orderLabel = <html>The order is <font color=\"%roleColor.0%\">%roleNames.0%</font>, <font color=\"%roleColor.1%\">%roleNames.1%</font>, <font color=\"%roleColor.2%\">%roleNames.2%</font>, <font color=\"%roleColor.3%\">%roleNames.3%</font></html>
+match.0.gui.sequentialOrderLabel=<html>The order is <font color=\"%roleColor.0%\">%roleName.0%</font>, <font color=\"%roleColor.1%\">%roleName.1%</font>, <font color=\"%roleColor.2%\">%roleName.2%</font>, <font color=\"%roleColor.3%\">%roleName.3%</font><br><br>You are <font color=\"%ownRoleColor%\">%ownRoleName%</font></html>
+match.0.gui.update.0=<html>
+match.0.gui.update.1=<html>The action of <font color=\"%roleColor.0%\">%roleName.0%</font> was %decision.0%<br><br.
+match.0.gui.update.2=<html>The action of <font color=\"%roleColor.0%\">%roleName.0%</font> was %decision.0%, and the action of <font color=\"%roleColor.1%\">%roleName.1%</font> was %decision.1%.<br><br>
+match.0.gui.update.3=<html>The action of <font color=\"%roleColor.0%\">%roleName.0%</font> was %decision.0%, the action of <font color=\"%roleColor.1%\">%roleName.1%</font> was %decision.1%, and the action of <font color=\"%roleColor.2%\">%roleName.2%</font> was %decision.2%.<br><br>
+match.0.gui.sequentialWaitLabel=<html> Please Wait.</html>
+
+
+match.0.gui.confirmlabel=<html>The actions selected by all subjects are: %decision.0%, %decision.1%, %decision.2%, %decision.3%</html>
+match.0.gui.resultlabel=<html>You are <font color=\"%roleColor%\">%roleName%</font>, and your payoff is %ownPayoff%</html>
+match.0.gui.allResultLabel = <html>Your selected role was <font color=\"%roleColor%\">%roleName%</font>. Your chosen action for <font color=\"%roleColor%\">%roleName%</font> was %ownDecision%.<br>Actions chosen by all players are: <font color=\"%roleColor.0%\">%roleName.0%</font> %decision.0%, <font color=\"%roleColor.1%\">%roleName.1%</font> %decision.1%, <font color=\"%roleColor.2%\">%roleName.2%</font> %decision.2%, <font color=\"%roleColor.3%\">%roleName.3%</font> %decision.3%.<br>Your payoff for this match is %ownPayoff%</html>
+match.0.gui.waitlabel=Please wait while the other subjects choose their actions...
+match.0.gui.continuewaitlabel=Please wait...
+match.0.gui.rolestring=YOUR ROLEs
+match.0.gui.actionstring=Your ACTIONS
+match.0.gui.payoffstring=PAYOFFs
+
+
+match.0.repetitions=3
+
