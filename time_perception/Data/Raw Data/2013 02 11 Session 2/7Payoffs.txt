@@ -1,0 +1,12 @@
+7 
+
+Interval 	 Length 		 Estimate 		 Deviation 		 Percent off 	 Correct Tasks 		 Incorrect Tasks 		 Percent 	 You earn 	 number 
+
+2m31s 		 151.00000 		 129.20234 		 21.79766 		 0.14 				 11 					 0 					 1.00 			 $5 		 1 
+
+1m56s 		 116.00000 		 119.55705 		 3.55705 		 0.03 				 8 					 4 					 0.67 			 $0 		 2
+
+0m31s 		 31.00000 		 29.36031 		 1.63969 		 0.05 				 3 					 0 					 1.00 			 $10 		 3 
+
+0m53s 		 53.00000 		 56.38233 		 3.38233 		 0.06 				 5 					 0 					 1.00 			 $10 		 4 
+

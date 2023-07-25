@@ -1,0 +1,12 @@
+7 
+
+number 	 Interval 		 You earn
+
+1 		 2m31s 			 $5
+
+2 		 1m56s 			 $0
+
+3 		 0m31s 			 $10
+
+4 		 0m53s 			 $10
+
