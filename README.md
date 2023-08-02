@@ -11,3 +11,5 @@ In this repository you will find the code, data and instructions for the followi
 * [Self-awareness in time perception (2018)](https://github.com/labelinstitute/nonchoice/tree/main/time_stress).
 
 * [The Path to Equilibrium in Sequential and Simultaneous Games: a Mouse tracking Study (2018)](https://github.com/labelinstitute/nonchoice/tree/main/sequential_simult).
+
+* [Shaming as an incentive mechanism against stealing: behavioral and physiological evidence (2021)](https://github.com/labelinstitute/nonchoice/tree/main/shame).
